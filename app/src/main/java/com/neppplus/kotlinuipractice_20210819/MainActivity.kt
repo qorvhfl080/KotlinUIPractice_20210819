@@ -20,5 +20,13 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, inputMessage, Toast.LENGTH_SHORT).show()
         }
 
+        moveToTextviewBtn.setOnClickListener {
+
+//            입력한 메세지를 변수에 저장해서 텍스트뷰의 text속성으로 대입
+            val inputMessage = messageEdt.text.toString()
+            resultTxt.text = inputMessage
+
+        }
+
     }
 }
