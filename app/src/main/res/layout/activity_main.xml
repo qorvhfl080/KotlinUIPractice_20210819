@@ -15,12 +15,14 @@
         android:text="메시지를 입력하세요"/>
 
     <EditText
+        android:id="@+id/messageEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="아무말이나 입력하세요"
         android:singleLine="true"/>
 
     <Button
+        android:id="@+id/toastBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="입력한 메시지를 토스트로 띄우는 버튼"/>
